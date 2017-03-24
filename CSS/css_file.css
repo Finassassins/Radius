@@ -1,0 +1,72 @@
+			
+		#outerdiv {
+
+					
+    			//width: 100px;
+    			//height: 100px;
+    			position: absolute;
+    			top:0;
+    			bottom: 0;
+    			left: 0;
+    			right: 0;
+    			margin: auto;
+
+			border-style:solid;
+			border-radius:8000px;
+			border-width:5px;
+			background: white;
+			border-color: rgb(150,139,240);
+		}
+		#headphones {
+
+    			position: center;
+    			top:0;
+    			bottom: 0;
+    			left: 0;
+    			right: 0;
+    			margin: auto;
+
+			border:0;
+			width:250; 
+			height:160; 
+			margin:0px;
+			padding:0;
+			margin-bottom:-230px;
+			margin-top:30px;
+		}
+		#btlogo {
+
+    			position: center;
+    			top:0;
+    			bottom: 0;
+    			left: 0;
+    			right: 0;
+    			margin: auto;
+
+			border:0;
+			width:229;
+			height:306;
+			margin:0px;
+			padding:0;
+			margin-top:-30px;
+			margin-bottom:-40;
+		}
+		h1 {
+
+    			position: center;
+    			top:0;
+    			bottom: 0;
+    			left: 0;
+    			right: 0;
+    			margin: auto;
+			
+			margin-top:230px;
+			text-align:center;
+			font-family:verdana;
+			color:rgb(150,139,240);
+			font-size:1210%;
+		}
+
+		body {
+			background:rgb(150,139,240);
+		}
