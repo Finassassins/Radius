@@ -9,24 +9,31 @@
 	<body>
 		<div id=container>
 			<h1>IDA_RADIUS_USER FORM</h1>
-			<p>Use this page to append "INSERT INRO IDA-RADIUS-USER" Statement for a new record to the sql script</p>
+			<p>Use this page to append "INSERT INTO IDA-RADIUS-USER" Statement for a new record to the sql script</p>
 			<form>
-				RADIUS_USERNAME:
+				<label for="username">RADIUS_USERNAME</label>
 				<input class="textfield" type="text" name="username" value="">
 				<br>
-				ACCOUNT STATUS:
+				<br>
+				<label for="account_status">ACCOUNT STATUS</label>
 				<input class="textfield" type="text" name="account_status" value="">
 				<br>
-				CHECK STRING:
-				<input class="textfield" type="text" name="check_string" value="">
 				<br>
-				REPLY STRING:
+				<label for="reply_string">CHECK STRING</label>
 				<input class="textfield" type="text" name="reply_string" value="">
 				<br>
+				<br>
+				<label for="reply_string">REPLY STRING</label>
+				<input class="textfield" type="text" name="reply_string" value="">
+				<br>
+				<br>
 				<p5>Preview Area<p5>
-				<input type="submit" value="Submit">
 				<input type="submit" value="Preview">
+				<input type="submit" value="Submit">
+				<br>
 			</form>
+
+				
 			<div id=preview_area> </div>
 		</div>
 	</body>

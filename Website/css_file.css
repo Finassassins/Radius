@@ -2,7 +2,10 @@
 box-sizing: border-box;
 }
 h1 {
-	position: center;
+	text-align: center;
+	font-size: 400%;
+	margin-top:30px;
+	
 }
 
 html {
@@ -20,7 +23,35 @@ html {
 	
 }
 
+label {
+	margin-left: 35px;
+    display: block;
+    width: 190px;
+}
+
 .textfield {
-	
-	
+    position: relative;
+	left: 35px;
+	//margin-left: 130px;
+	//margin: auto;
+	//margin-right: -100px;
+	//position: absolute;
+	//padding-left: 50px;
+	//display: run-in;
+    //float: right;
+}
+
+
+p {
+	margin-left: 35px;
+}
+
+p5 {
+	margin-left: 35px;
+}
+#preview_area {
+	margin-left: 35px;
+	border: 1px solid;
+	width: 400px;
+	height: 100px;
 }
