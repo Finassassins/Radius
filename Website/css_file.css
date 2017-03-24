@@ -1,0 +1,26 @@
+* {
+box-sizing: border-box;
+}
+h1 {
+	position: center;
+}
+
+html {
+	background: grey;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#container {
+	background: white;
+	width: 1000px;
+	top: 0;
+	bottom: 0;
+	position: absolute;
+	
+}
+
+.textfield {
+	
+	
+}
